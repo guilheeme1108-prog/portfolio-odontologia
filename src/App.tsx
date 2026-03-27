@@ -25,7 +25,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
             <span className="text-2xl font-bold tracking-tight text-white mb-2 block">Dra. Antônia Seixas</span>
-            <p className="text-sm">Cro/SE: [Inserir CRO] - Especialista em Sorrisos.</p>
+            <p className="text-sm">CRO/SE: 1269 SE - Especialista em Sorrisos.</p>
           </div>
           <div className="text-sm text-slate-500">
             &copy; {new Date().getFullYear()} Dra. Antônia Patrícia. Todos os direitos reservados.
