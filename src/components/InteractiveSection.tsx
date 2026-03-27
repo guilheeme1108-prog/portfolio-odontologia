@@ -71,11 +71,11 @@ export function InteractiveSection() {
           {/* Interactive Video Container */}
           <div className="flex-1 w-full h-[50vh] md:h-[80vh] relative flex items-center justify-center">
             
-            <motion.div style={{ scale: scaleImage }} className="relative w-full h-full max-w-lg mx-auto flex items-center justify-center">
+            <motion.div style={{ scale: scaleImage }} className="relative w-full h-full max-w-xl lg:max-w-2xl mx-auto flex items-center justify-center">
               <video
                 ref={videoRef}
                 src="/hero-video.mp4"
-                className="absolute inset-0 w-full h-full object-contain filter drop-shadow-2xl mix-blend-multiply"
+                className="absolute inset-0 w-full h-full object-contain mix-blend-multiply"
                 muted
                 playsInline
                 autoPlay
