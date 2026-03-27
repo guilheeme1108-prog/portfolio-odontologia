@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { InteractiveSection } from './components/InteractiveSection';
-import { Denture3D } from './components/Denture3D';
 import { Contact } from './components/Contact';
 import { MessageCircle } from 'lucide-react';
 
@@ -18,7 +17,6 @@ function App() {
         <About />
         <Services />
         <InteractiveSection />
-        <Denture3D />
         <Contact />
       </main>
 
