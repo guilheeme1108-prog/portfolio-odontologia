@@ -55,10 +55,10 @@ export function InteractiveSection() {
             className="flex-1 text-center md:text-left pt-20 md:pt-0"
           >
             <span className="text-rose-700 font-extrabold tracking-widest uppercase text-sm mb-4 block">Educação e Transparência</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-[--color-text-main] mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#332225] mb-6 leading-tight">
               A complexidade do seu sorriso, resolvida com <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-rose-600">Precisão</span>
             </h2>
-            <p className="text-xl text-[--color-text-muted] leading-relaxed">
+            <p className="text-xl text-[#786568] leading-relaxed">
               Como uma máquina precisa e complexa, cada parte do seu tratamento é planejada e unida para formar um sorriso completo, saudável e belo!
             </p>
             <div className="mt-8 flex items-center justify-center md:justify-start gap-4 text-sm font-medium text-slate-500">

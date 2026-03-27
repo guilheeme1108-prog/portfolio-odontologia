@@ -27,7 +27,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-[--color-primary] relative">
+    <section id="contact" className="py-24 bg-[#fff0f2] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="bg-white rounded-[2.5rem] p-8 md:p-16 shadow-xl overflow-hidden relative">
@@ -42,17 +42,17 @@ export function Contact() {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                className="text-3xl md:text-4xl font-bold text-[--color-text-main] mb-4"
+                className="text-3xl md:text-4xl font-bold text-[#332225] mb-4"
               >
                 Vamos agendar sua consulta?
               </motion.h2>
-              <p className="text-[--color-text-muted] mb-10">
+              <p className="text-[#786568] mb-10">
                 Entre em contato para avaliar sua saúde bucal. A Dra. Antônia Patrícia está pronta para atender você com o máximo de cuidado e técnica.
               </p>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[--color-accent-dark] flex-shrink-0">
+                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[#913c4c] flex-shrink-0">
                     <Phone size={20} />
                   </div>
                   <div>
@@ -62,7 +62,7 @@ export function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[--color-accent-dark] flex-shrink-0">
+                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[#913c4c] flex-shrink-0">
                     <MapPin size={20} />
                   </div>
                   <div>
@@ -72,7 +72,7 @@ export function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[--color-accent-dark] flex-shrink-0 font-bold">
+                  <div className="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-[#913c4c] flex-shrink-0 font-bold">
                     @
                   </div>
                   <div>
@@ -94,25 +94,25 @@ export function Contact() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label htmlFor="name" className="text-sm font-medium text-gray-700">Nome Completo</label>
-                    <input id="name" required value={formData.name} onChange={handleChange} type="text" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[--color-accent] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="Seu nome" />
+                    <input id="name" required value={formData.name} onChange={handleChange} type="text" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[#d47a8c] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="Seu nome" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="phone" className="text-sm font-medium text-gray-700">Telefone / WhatsApp</label>
-                    <input id="phone" required value={formData.phone} onChange={handleChange} type="text" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[--color-accent] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="(00) 00000-0000" />
+                    <input id="phone" required value={formData.phone} onChange={handleChange} type="text" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[#d47a8c] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="(00) 00000-0000" />
                   </div>
                 </div>
                 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
-                  <input id="email" required value={formData.email} onChange={handleChange} type="email" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[--color-accent] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="seu@email.com" />
+                  <input id="email" required value={formData.email} onChange={handleChange} type="email" className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[#d47a8c] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white" placeholder="seu@email.com" />
                 </div>
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium text-gray-700">Mensagem</label>
-                  <textarea id="message" required value={formData.message} onChange={handleChange} rows={4} className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[--color-accent] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white resize-none" placeholder="Como podemos ajudar?"></textarea>
+                  <textarea id="message" required value={formData.message} onChange={handleChange} rows={4} className="w-full px-5 py-4 rounded-2xl border border-gray-200 focus:border-[#d47a8c] focus:ring-4 focus:ring-rose-100 outline-none transition-all bg-white resize-none" placeholder="Como podemos ajudar?"></textarea>
                 </div>
 
-                <button type="submit" className="w-full bg-[--color-accent-dark] hover:bg-rose-800 text-white font-semibold py-4 rounded-2xl transition-all shadow-[0_8px_30px_rgb(145,60,76,0.4)] hover:shadow-[0_8px_40px_rgb(145,60,76,0.6)] flex items-center justify-center gap-2 group transform hover:-translate-y-1">
+                <button type="submit" className="w-full bg-[#913c4c] hover:bg-rose-800 text-white font-semibold py-4 rounded-2xl transition-all shadow-[0_8px_30px_rgb(145,60,76,0.4)] hover:shadow-[0_8px_40px_rgb(145,60,76,0.6)] flex items-center justify-center gap-2 group transform hover:-translate-y-1">
                   Enviar Mensagem
                   <Send size={18} className="translate-x-1 group-hover:translate-x-2 transition-transform" />
                 </button>

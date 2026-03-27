@@ -30,7 +30,7 @@ export function Services() {
   ];
 
   return (
-    <section id="services" className="py-24 bg-[--color-primary] relative overflow-hidden">
+    <section id="services" className="py-24 bg-[#fff0f2] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
@@ -39,11 +39,11 @@ export function Services() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-bold text-[--color-text-main] mb-4"
+              className="text-3xl md:text-4xl font-bold text-[#332225] mb-4"
             >
               Áreas de Atuação
             </motion.h2>
-            <div className="w-20 h-1 bg-[--color-accent] mb-6"></div>
+            <div className="w-20 h-1 bg-[#d47a8c] mb-6"></div>
             <p className="text-lg text-slate-700">
               Conheça as especialidades e serviços oferecidos pela Dra. Antônia Patrícia, sempre priorizando qualidade técnica e as necessidades únicas de cada paciente.
             </p>
@@ -63,10 +63,10 @@ export function Services() {
               <div className={`p-4 rounded-2xl mb-6 bg-${service.color}-50 text-${service.color}-500`}>
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold text-[--color-text-main] mb-3">{service.title}</h3>
-              <p className="text-[--color-text-muted] leading-relaxed mb-6 flex-grow">{service.description}</p>
+              <h3 className="text-xl font-bold text-[#332225] mb-3">{service.title}</h3>
+              <p className="text-[#786568] leading-relaxed mb-6 flex-grow">{service.description}</p>
               
-              <button className="text-[--color-accent-dark] font-semibold text-sm inline-flex items-center gap-2 group mt-auto">
+              <button className="text-[#913c4c] font-semibold text-sm inline-flex items-center gap-2 group mt-auto">
                 Saber mais 
                 <span className="transform transition-transform group-hover:translate-x-1">→</span>
               </button>

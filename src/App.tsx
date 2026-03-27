@@ -43,7 +43,7 @@ function App() {
       >
         <MessageCircle size={28} />
         {/* Tooltip that shows permanently so mobile users can see without hover */}
-        <span className="absolute right-full mr-4 bg-[--color-accent-dark] text-white text-sm font-semibold px-3 py-1.5 rounded-lg shadow-lg opacity-100 whitespace-nowrap pointer-events-none">
+        <span className="absolute right-full mr-4 bg-[#913c4c] text-white text-sm font-semibold px-3 py-1.5 rounded-lg shadow-lg opacity-100 whitespace-nowrap pointer-events-none">
           Enviar Mensagem
         </span>
       </a>
