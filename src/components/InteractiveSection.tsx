@@ -18,9 +18,16 @@ export function InteractiveSection() {
     }
   });
 
-  const handleLoadedMetadata = () => {
+  const handleLoadedData = () => {
     if (videoRef.current) {
       setVideoDuration(videoRef.current.duration);
+      // Tenta dar play e pause imediatamente para destravar a engine de vídeo no iOS/Mobile
+      const playPromise = videoRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          videoRef.current?.pause();
+        }).catch(() => {});
+      }
     }
   };
 
@@ -71,8 +78,9 @@ export function InteractiveSection() {
                 className="absolute inset-0 w-full h-full object-contain filter drop-shadow-2xl mix-blend-multiply"
                 muted
                 playsInline
+                autoPlay
                 preload="auto"
-                onLoadedMetadata={handleLoadedMetadata}
+                onLoadedData={handleLoadedData}
               />
             </motion.div>
 
