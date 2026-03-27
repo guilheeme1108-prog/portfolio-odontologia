@@ -24,7 +24,7 @@ function App() {
       <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-            <span className="text-2xl font-bold tracking-tight text-white mb-2 block">Dra. Antônia Seixas</span>
+            <span className="text-2xl font-bold tracking-tight text-white mb-2 block">Dra. Patricia Seixas</span>
             <p className="text-sm">CRO/SE: 1269 SE - Especialista em Sorrisos.</p>
           </div>
           <div className="text-sm text-slate-500">

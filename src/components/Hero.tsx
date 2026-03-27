@@ -23,10 +23,12 @@ export function Hero() {
               <span>Saúde e Estética Dental</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#332225] leading-tight mb-6">
-              Transformando sorrisos com <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-rose-600">Excelência e Cuidado</span>
+              Dra. Patricia<br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-rose-800 to-rose-600">
+                Seixas e Cuidado</span>
             </h1>
-            <p className="text-lg md:text-xl text-[#786568] mb-8 max-w-2xl mx-auto lg:mx-0">
-              Dra. Antônia Patrícia Seixas, cirurgiã-dentista dedicada a oferecer tratamentos odontológicos humanizados, seguros e de alta qualidade técnica.
+            <p className="text-base sm:text-lg md:text-xl text-[#786568] mb-8 font-light max-w-2xl mx-auto lg:mx-0">
+              A Dra. Patricia Seixas une a precisão cirúrgica da implantodontia à arte da harmonização facial, oferecendo tratamentos de excelência técnica para restaurar sua saúde, função e estética.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a 
@@ -56,7 +58,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-tr from-[#d47a8c] to-rose-200 rounded-[2.5rem] transform rotate-3 scale-105 opacity-50 z-0"></div>
               <img 
                 src="/assets/dentist-photo-clean.png" 
-                alt="Dra. Antônia Patrícia Seixas" 
+                alt="Dra. Patricia Seixas" 
                 className="relative z-10 w-full h-auto object-cover rounded-[2.5rem] shadow-2xl border-4 border-white aspect-[4/5]"
                 style={{ objectPosition: 'center top' }}
               />

@@ -18,7 +18,7 @@ export function Header() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
             <a href="#home" className="text-2xl font-semibold text-[#332225]">
-              Dra. Antônia Seixas
+              Dra. Patricia Seixas
             </a>
           </div>
           <div className="hidden md:flex space-x-8 items-center">

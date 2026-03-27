@@ -47,7 +47,7 @@ export function Contact() {
                 Vamos agendar sua consulta?
               </motion.h2>
               <p className="text-[#786568] mb-10">
-                Entre em contato para avaliar sua saúde bucal. A Dra. Antônia Patrícia está pronta para atender você com o máximo de cuidado e técnica.
+                Entre em contato para avaliar sua saúde bucal. A Dra. Patricia Seixas está pronta para atender você com o máximo de cuidado e técnica.
               </p>
 
               <div className="space-y-6">
@@ -67,7 +67,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Endereço</h4>
-                    <p className="text-gray-600">Centro de Saúde Humanus Mais.<br/>Rua: Antônio Higino dos Santos, 1272.</p>
+                    <p className="text-gray-600">R. Antônio Higino dos Santos, 1272 - Anísio Amâncio de Oliveira, Itabaiana - SE, 49503-393</p>
                   </div>
                 </div>
 
